@@ -1,0 +1,74 @@
+@import url("fonts.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #FAFAFA;
+}
+
+.flex-container-header {
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: auto;
+    /* background-color: #aac6f5; */
+    background:  #bdddf9;
+    
+}
+
+.flex-item-header {
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    font-style: italic;
+}
+
+.h{
+    position: relative;
+    display: inline-block;
+    padding: 15px 60px;
+    /* background: #1f3344; */
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    color: rgb(252, 34, 89);
+    transition: 1s;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.h:hover{
+    color: #255784;
+    background: #e3ee4f;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    border: rgb(247, 86, 94);
+}
+
+
+    /* font-family: OpenSans-Light;
+    color: white;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: calc((1.5rem - 2rem) + 2.5rem);
+    margin-bottom: 1.5rem; */
+
+
+@media screen and (max-width: 855px) {
+  #h1 {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      margin-top: calc((1.5rem - 2rem) + 2rem);
+      margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #h1 {
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-top: calc((1.5rem - 2rem) + 1.5rem);
+      margin-bottom: 1.5rem;
+  }
+}
