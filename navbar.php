@@ -10,7 +10,7 @@
 <body>
     <div class="nav-wrapper">
         <div class="topnav" id="theTopNav">
-            <a href="./home.php">HOME</a>
+            <a href="./index.php">HOME</a>
 
             <a class="nav-link" href="https://www.thesparksfoundationsingapore.org/ " target="_blank">ABOUT US</a>
             <a href="./contact_us.php">CONTACT US</a>
