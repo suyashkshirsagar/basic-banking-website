@@ -57,7 +57,7 @@ include 'connect.php';
                     </div>
                     <button class="btn btn-danger">Submit</button>
                     <div class="home1">
-                        <a href="./home.php" style="color: white;">Back</a>
+                        <a href="./index.php" style="color: white;">Back</a>
                     </div>
                 </form>
             </div>
